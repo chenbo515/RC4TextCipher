@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">RC4 </string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">RC4 Text Cipher</string>
+    <string name="title_activity_password">Password Setting</string>
+    <string name="title_activity_text_list">Saved Meaasges</string>
+
+</resources>

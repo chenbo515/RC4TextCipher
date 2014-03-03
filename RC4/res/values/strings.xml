@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">RC4 </string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">RC4 Text Cipher</string>
+    <string name="title_activity_password">Password Setting</string>
+    <string name="title_activity_text_list">Saved Meaasges</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="About">The RC4 Personal Cipher is a simple implementation of the RC4 encryption algorithm.Press the "Password" to set a password for encryption and decryption.Then you can use "Encrypt" and "Decrypt" to encryptand decrypt text.The ciphertext can can be sent via E-mail or SMS .You can also save the ciphertext to the database so you can decrypt later.</string>
+
+</resources>

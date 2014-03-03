@@ -1,0 +1,122 @@
+                                                                                                                                                                                                                                                                                                                                               
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#000000"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btnCopyPlain"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="Copy" />
+
+            <Button
+                android:id="@+id/btnPastePlain"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="Paste" />
+
+            <Button
+                android:id="@+id/btnPlainClear"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="Clear" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="top|left"
+            android:inputType="textMultiLine"
+            android:maxLines="7"
+            android:minLines="7"
+            android:scrollbars="vertical" >
+
+            <requestFocus />
+        </EditText>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#000000"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btnEncrypt"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="Encrypt" />
+
+            <Button
+                android:id="@+id/btnDecrypt"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="Decrypt" />
+
+            <Button
+                android:id="@+id/btnPass"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="Password" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="top|left"
+            android:inputType="textMultiLine"
+            android:maxLines="7"
+            android:minLines="7"
+            android:scrollbars="vertical"
+            android:singleLine="false" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#000000"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btnCopyCipher"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="Copy" />
+
+            <Button
+                android:id="@+id/btnPasteCipher"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="Paste" />
+
+            <Button
+                android:id="@+id/btnCipherClear"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="Clear" />
+
+        </LinearLayout>
+    </LinearLayout>
